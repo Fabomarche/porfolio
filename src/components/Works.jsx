@@ -42,7 +42,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               <img
                 src={web_icon}
                 alt="web_icon"
-                style={{ "filter": "brightness(1000)" }}
+                style={{ "filter": "invert(100%)" }}
                 className="w-2/3 h-2/3 object-contain"
               />
             </div>}
