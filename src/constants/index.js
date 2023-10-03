@@ -107,8 +107,37 @@ import {
       icon: linux,
     },
     {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    {
       name: "Python",
       icon: python,
+    },
+    {
+      name: "Typescript",
+      icon: typescript,
+    },
+    {
+      name: "HTML",
+      icon: html,
+    },
+    {
+      name: "CSS",
+      icon: css,
+    },
+    {
+      name: "django",
+      icon: django,
+    },
+
+    {
+      name: "threejs",
+      icon: threejs,
     },
   ];
   
