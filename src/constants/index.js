@@ -1,4 +1,5 @@
 import {
+  ai_tshirt,
     rick_vue,
     password_django,
     am,
@@ -287,6 +288,28 @@ import {
       source_code_link: "https://github.com/Fabomarche/prompt4all",
     },
     {
+      name: "AI t-shirt generator",
+      description:
+        "React Vite, Three.js & Nodes.js Express Project to create custom T-shirts whit openAI DALL.E images by prompts or uploaded images",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ai_tshirt,
+      web_link: "https://t-shirt-ai-generator.vercel.app/",
+      source_code_link: "https://github.com/Fabomarche/T-shirt_AI_generator/tree/main",
+    },
+    {
       name: "Suelo",
       description:
         "Simulated E-commerce Project for a dietary store. I have developed this project using react-router-dom for route management and Firebase Firestore to handle both product data and user login and registration systems.",
@@ -305,8 +328,8 @@ import {
         },
       ],
       image: suelo,
-      web_link: "https://prompt4all.vercel.app/",
-      source_code_link: "https://github.com/Fabomarche/prompt4all",
+      web_link: "https://suelo-mercado-organico.netlify.app/",
+      source_code_link: "https://github.com/Fabomarche/suelo",
     },
     {
       name: "Benvida",
