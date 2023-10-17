@@ -33,6 +33,7 @@ import {
     linux,
     bootstrap,
     sql,
+    price_tracker,
   } from "../assets";
   
   export const navLinks = [
@@ -266,26 +267,26 @@ import {
       source_code_link: "https://github.com/Fabomarche/ecommerce_backend",
     },
     {
-      name: "Promp4all",
+      name: "Amazon Products Scraper",
       description:
-        "Next.js 13 project: An open-source AI prompting tool for modern world to discover, create and share creative prompts.",
+        "Prisewise is a personal project. It is an Amazon product scraper and tracker built with Next.js, cron-job, tailwind and more. ",
       tags: [
         {
-          name: "nextjs",
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "cron-job",
           color: "green-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: prompt,
-      web_link: "https://prompt4all.vercel.app/",
-      source_code_link: "https://github.com/Fabomarche/prompt4all",
+      image: price_tracker,
+      web_link: "https://price-tracker-blush.vercel.app/",
+      source_code_link: "https://github.com/Fabomarche/price_tracker",
     },
     {
       name: "AI t-shirt generator",
@@ -309,6 +310,30 @@ import {
       web_link: "https://t-shirt-ai-generator.vercel.app/",
       source_code_link: "https://github.com/Fabomarche/T-shirt_AI_generator/tree/main",
     },
+    {
+      name: "Promp4all",
+      description:
+        "Next.js 13 project: An open-source AI prompting tool for modern world to discover, create and share creative prompts.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prompt,
+      web_link: "https://prompt4all.vercel.app/",
+      source_code_link: "https://github.com/Fabomarche/prompt4all",
+    },
+  
+
     {
       name: "Suelo",
       description:

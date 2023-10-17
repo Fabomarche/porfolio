@@ -39,8 +39,10 @@ import am from './am.png'
 import password_django from './password_django.png'
 import rick_vue from './rick_vue.png'
 import ai_tshirt from './ai_tshirt.png'
+import price_tracker from './price_tracker.png'
 
 export {
+  price_tracker,
   ai_tshirt,
   rick_vue,
   password_django,
