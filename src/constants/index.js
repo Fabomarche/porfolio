@@ -207,6 +207,19 @@ import {
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       ],
     },
+     {
+      title: "React Native Developer",
+      company_name: "Mad Dogg Athletics®",
+      icon: "https://media.licdn.com/dms/image/v2/C560BAQFJGWMAwZ9TqA/company-logo_100_100/company-logo_100_100/0/1631331216776?e=1787184000&v=beta&t=Kj3QcV7xmUfeQSo-OPgvBAGIIBvNSbGKEGNFbtt2zRI",
+      iconBg: "#E6DEDD",
+      iconSize: "14",
+      date: "Sep 2024 - Present",
+      points: [
+        "Implementing new features and continuously improving Volava mobile applications for iOS and Android using React Native.",
+        "Identifying, troubleshooting, and resolving issues to ensure reliable and high-quality app performance.",
+        "Managing quality assurance, technical documentation, and technical support within a small, collaborative team.",
+      ],
+    },
   ];
   
   const testimonials = [
