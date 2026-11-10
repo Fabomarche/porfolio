@@ -1,11 +1,8 @@
 import {
   ai_tshirt,
-  rick_vue,
   password_django,
-  am,
   karun,
   benvida,
-  suelo,
   pharol,
   backend_ecommerce,
   prompt,
@@ -532,30 +529,6 @@ import {
       web_link: "https://prompt4all.vercel.app/",
       source_code_link: "https://github.com/Fabomarche/prompt4all",
     },
-  
-
-    {
-      name: "Suelo",
-      description:
-        "Simulated E-commerce Project for a dietary store. I have developed this project using react-router-dom for route management and Firebase Firestore to handle both product data and user login and registration systems.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "bootstrap",
-          color: "green-text-gradient",
-        },
-        {
-          name: "firestore",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: suelo,
-      web_link: "https://suelo-mercado-organico.netlify.app/",
-      source_code_link: "https://github.com/Fabomarche/suelo",
-    },
     {
       name: "Benvida",
       description:
@@ -601,28 +574,6 @@ import {
       source_code_link: false,
     },
     {
-      name: "AM University Classes",
-      description:
-        "Freelance project: website for advanced students of different majors, so we understand the challenges you face when studying. We offer a trusting environment for you to ask your questions without fear. We create our own material and monitor the tasks we assign to you.",
-        tags: [
-          {
-            name: "JS_Vanilla",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "css",
-            color: "green-text-gradient",
-          },
-          {
-            name: "html",
-            color: "pink-text-gradient",
-          },
-        ],
-      image: am,
-      web_link: "https://fabomarche.github.io/am/",
-      source_code_link: "https://github.com/Fabomarche/am",
-    },
-    {
       name: "Password Generator",
       description:
         "Personal project for developing a password generator using Django and Python libraries.",
@@ -639,28 +590,6 @@ import {
       image: password_django,
       web_link: false,
       source_code_link: "https://github.com/Fabomarche/django_password_generator",
-    },
-    {
-      name: "Rick & Morty",
-      description:
-        "Personal FrontEnd development project using the Vue.js library. In this simple and quickly executed project, the consumption of the Rick & Morty animated series API is implemented to display the characters on cards. Additionally, a search filter functionality is included.",
-        tags: [
-          {
-            name: "vuejs",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "api",
-            color: "green-text-gradient",
-          },
-          {
-            name: "bootstrap",
-            color: "pink-text-gradient",
-          }
-        ],
-      image: rick_vue,
-      web_link: 'https://rick-and-morty-api-vue-js.netlify.app/',
-      source_code_link: "https://github.com/Fabomarche/Rick---Morty-API-Vue",
     },
   ];
   
