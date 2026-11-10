@@ -12,9 +12,17 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh'],
   rules: {
-    'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
-    ],
+    // This codebase does not use PropTypes, and React Three Fiber uses
+    // non-DOM props. The fast-refresh rule also flags the section HOC.
+    'react/prop-types': 'off',
+    'react/no-unknown-property': 'off',
+    'react/no-unescaped-entities': 'off',
+    'react-refresh/only-export-components': 'off',
   },
+  overrides: [
+    {
+      files: ['*.config.js', 'tailwind.config.js', 'postcss.config.js', 'vite.config.js'],
+      env: { node: true },
+    },
+  ],
 }
