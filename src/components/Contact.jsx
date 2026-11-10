@@ -41,7 +41,7 @@ const Contact = () => {
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setLoading(false)
-      alert('Thank you. I will get back to you as soon as posible')
+      alert('Thank you. I will get back to you as soon as possible')
 
       setForm({
         name: '',
@@ -66,35 +66,43 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className="mt-6 flex flex-col gap-2">
+          <a className="text-white font-medium" href="mailto:fabriciomarche@hotmail.com">fabriciomarche@hotmail.com</a>
+          <a className="text-white font-medium" href="tel:+34687724995">+34 687 724 995</a>
+          <a className="text-white font-medium" href="https://linkedin.com/in/fabricio-marchetti" target="_blank" rel="noreferrer">linkedin.com/in/fabricio-marchetti</a>
+          <a className="text-white font-medium" href="https://github.com/Fabomarche" target="_blank" rel="noreferrer">github.com/Fabomarche</a>
+          <a className="text-white font-medium" href="/CV-Fabricio-Marchetti-EN.pdf" target="_blank" rel="noreferrer">Download CV</a>
+          <p className="text-secondary font-medium">Spanish: native · English: intermediate (B1-B2)</p>
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Yout Name</span>
+            <span className='text-white font-medium mb-4'>Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's yout name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Yout Email</span>
+            <span className='text-white font-medium mb-4'>Your Email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's yout email?"
+              placeholder="What's your email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Yout Message</span>
+            <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows="7"
               name="message"
